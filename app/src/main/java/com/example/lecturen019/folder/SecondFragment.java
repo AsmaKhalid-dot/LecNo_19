@@ -1,4 +1,4 @@
-package com.example.lecturen019.fragments;
+package com.example.lecturen019.folder;
 
 import android.os.Bundle;
 
@@ -9,8 +9,8 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.example.lecturen019.R;
-public class fragment_second extends Fragment {
-    public fragment_second() {
+public class SecondFragment extends Fragment {
+    public SecondFragment() {
         // Required empty public constructor
     }
     @Override
