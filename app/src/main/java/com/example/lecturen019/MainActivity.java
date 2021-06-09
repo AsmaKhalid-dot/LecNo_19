@@ -34,6 +34,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 SecondFragment secondFragment=new SecondFragment();
+                FragmentTransaction transaction=getSupportFragmentManager().beginTransaction();
+                
             }
         });
 
