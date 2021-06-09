@@ -35,7 +35,8 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 SecondFragment secondFragment=new SecondFragment();
                 FragmentTransaction transaction=getSupportFragmentManager().beginTransaction();
-                
+                transaction.replace(R.id.linearLayout,secondFragment);
+                transaction.commit();
             }
         });
 
